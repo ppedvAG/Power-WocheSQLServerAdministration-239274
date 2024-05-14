@@ -33,3 +33,9 @@ EXEC msdb.dbo.sp_add_alert @name=N'Security_Nwind_AccessDenied',
 		@job_id=N'00000000-0000-0000-0000-000000000000'
 GO
 
+
+
+--hv-sql2
+-- 25
+--ZUgriff anonym 
+-- ...@sql.local

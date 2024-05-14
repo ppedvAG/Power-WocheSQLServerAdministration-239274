@@ -4,7 +4,7 @@ Databasemail
 
 
 SMTP Server irgendwo in der Gegend für Versand 
-kann auch ein lokaler SM;TP Server sein oder auch MM365 
+kann auch ein lokaler SMTP Server sein oder auch MM365 
 
 Was braucht man?
 
