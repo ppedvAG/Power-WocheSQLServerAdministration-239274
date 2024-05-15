@@ -3,6 +3,21 @@
   <Items>
     <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="(local):BIGBEN\Administrator">
+          <Created>2024-05-15T13:35:50.0812621+02:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="BIGBEN:BIGBEN\Administrator">
           <Created>2024-05-13T11:11:39.6006387+02:00</Created>
           <Type>SQL</Type>
@@ -64,11 +79,23 @@
           <AssociatedConnUserName />
           <FullPath>07_Agent.sql</FullPath>
         </FileNode>
+        <FileNode Name="08_Dababasemail.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08_Dababasemail.sql</FullPath>
+        </FileNode>
         <FileNode Name="09_Operatoren.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>09_Operatoren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_Proxykonto.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>09_Proxykonto.sql</FullPath>
         </FileNode>
         <FileNode Name="10_Warnungen.sql">
           <AssociatedConnectionMoniker />
@@ -76,11 +103,101 @@
           <AssociatedConnUserName />
           <FullPath>10_Warnungen.sql</FullPath>
         </FileNode>
+        <FileNode Name="11_Backup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_Backup.sql</FullPath>
+        </FileNode>
         <FileNode Name="11_Proxykonto.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>11_Proxykonto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Snapshot.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_Snapshot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Restore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12_Restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13__Security.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>13__Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Besitzverkettung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>14_Besitzverkettung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_Anwendungsrolle.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>16_Anwendungsrolle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_Audit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_Audit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18_Containted Databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>18_Containted Databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19_Richtlinien.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>19_Richtlinien.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_Xevents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_Xevents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21_Ressourcegovernor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21_Ressourcegovernor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DiagnosticViews.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DiagnosticViews.sql</FullPath>
+        </FileNode>
+        <FileNode Name="instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_change_users_login.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_change_users_login.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_help_revlogin.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
